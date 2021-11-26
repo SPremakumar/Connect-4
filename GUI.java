@@ -79,7 +79,7 @@ public class GUI {
 				}
 
 				if (board.GameOver() == true) {
-					h.show_winner2(board);
+					h.show_winner(board);
 					System.out.println("FIN");
 				}
 
@@ -123,7 +123,7 @@ public class GUI {
 						}
 
 						if (board.GameOver() == true) {
-							h.show_winner2(board);
+							h.show_winner(board);
 							System.out.println("FIN");
 						}
 					}
