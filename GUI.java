@@ -69,7 +69,7 @@ public class GUI {
 
 				if (turn == 1) {
 					board.DropPiece(MouseX, board.getCROIX());
-					System.out.println(" MouseX = " + MouseX); 
+					//System.out.println(" MouseX = " + MouseX); 
 					turn++;
 				}
 
@@ -80,7 +80,7 @@ public class GUI {
 
 				if (board.GameOver() == true) {
 					h.show_winner(board);
-					System.out.println("FIN");
+					//System.out.println("FIN");
 				}
 
 			}
@@ -113,7 +113,7 @@ public class GUI {
 
 						if (turn == 1) {
 							board.DropPiece(KeyInt, board.getCROIX());
-							System.out.println(" KeyX = " + KeyInt); 
+							//System.out.println(" KeyX = " + KeyInt); 
 							turn++;
 						}
 
@@ -124,7 +124,6 @@ public class GUI {
 
 						if (board.GameOver() == true) {
 							h.show_winner(board);
-							System.out.println("FIN");
 						}
 					}
 				}
